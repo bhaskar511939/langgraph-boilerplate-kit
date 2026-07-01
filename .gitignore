@@ -43,7 +43,6 @@ credentials.json
 secrets.json
 
 # MacOS
-.AppleDouble
 .LSOverride
 
 # Temporary files
