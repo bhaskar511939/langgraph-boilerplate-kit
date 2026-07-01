@@ -15,7 +15,6 @@ The patterns in this project directly address that gap:
 - **Provider-agnostic LLM interface** that allows organizations to choose their AI provider based on data sovereignty, cost, and capability requirements rather than being locked to a single vendor's SDK patterns
 - **Real-time streaming with proper SSE handling** that provides responsive user experiences even for complex multi-step reasoning tasks
 
-These are not academic contributions. They are the engineering prerequisites for AI adoption at scale in the American enterprise, which is itself a national economic priority.
 
 ## Architecture Highlights
 
@@ -44,8 +43,8 @@ A `_safe_messages()` function addresses a class of errors that are common in pro
 ## Quick Start
 
 ```bash
-git clone https://github.com/bhaskararaorebba/langgraph-skeleton
-cd langgraph-skeleton
+git clone https://github.com/bhaskar511939/langgraph-boilerplate-kit
+cd langgraph-boilerplate-kit
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
